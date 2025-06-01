@@ -10,7 +10,7 @@ end
 
 -- This hook is compatible with the following game version: https://github.com/FakeFishGames/Barotrauma/blob/22227f13e5cd0c704ebb0f362752d4200f4b5c0f/Barotrauma/BarotraumaClient/ClientSource/Items/Inventory.cs#L1683
 local InstallHook_22227f1 = function()
-    Hook.Patch("JasekMod.DrawSingleSlot", "Barotrauma.Inventory", "DrawSlot", {
+    Hook.Patch("BaroUIPlus.DrawSingleSlot", "Barotrauma.Inventory", "DrawSlot", {
         "Microsoft.Xna.Framework.Graphics.SpriteBatch",
         "Barotrauma.Inventory",
         "Barotrauma.VisualSlot",
